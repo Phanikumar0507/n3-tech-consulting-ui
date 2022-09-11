@@ -6,7 +6,6 @@ import Contact from './Contact';
 
 const LandingPage = ({ selectedTab }) => {
 
-    console.log('_+_selectedtab', selectedTab)
     const renderTab = (selectedPage) => {
         let returnElement = null;
         switch (selectedPage) {
@@ -32,7 +31,7 @@ const LandingPage = ({ selectedTab }) => {
 
     }
     return (
-        <div>
+        <div className='page-container'>
             {renderTab(selectedTab)}
         </div>
 

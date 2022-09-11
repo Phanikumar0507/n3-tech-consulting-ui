@@ -5,14 +5,13 @@ const Careers = () => {
         <div>
             <h1 className='page-header'> CAREERS </h1>
             <div className='page-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                There are many factors that will define satisfaction and success in your career.
+                The most significant skill-related factors include knowledge, ability, dedication, and perseverance.
+                In addition, your employer plays an important role in your job satisfaction. Idol Soft provides you with exciting growth prospects and dynamic work environment.
+                At Idol Soft, we are committed to helping you grow and succeed.
+                We continuously devote enormous energy and resources towards helping you develop in your day-to-day life.
             </div>
+
         </div>
     )
 }
