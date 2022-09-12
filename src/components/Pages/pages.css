@@ -23,7 +23,7 @@
 }
 
 .page-container {
-    overflow: scroll;
+    /* overflow: scroll; */
     margin-bottom: 100px;
 }
 
