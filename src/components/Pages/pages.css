@@ -33,3 +33,7 @@
     grid-template-columns: 40px auto;
     gap: 20px;
 }
+
+.service-image {
+    height: 230px;
+}

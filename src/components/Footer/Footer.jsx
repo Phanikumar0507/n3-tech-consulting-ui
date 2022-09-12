@@ -10,7 +10,7 @@ const Footer = ({ onTabClick }) => {
             <Container>
                 <Row xs={1} md={4} className="g-4 pt-3">
                     <div>
-                        <img src={N3Techlogo} alt="N3 tech" className='header-logo pl-2'></img>
+                        <img src={N3Techlogo} alt="N3 tech" className='header-logo'></img>
                         <div>N3 Tech Consulting LLC, is a software product development organization, offering a wide range of software solutions.</div>
                     </div>
                     <div className='quick-links'>

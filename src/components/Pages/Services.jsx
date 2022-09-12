@@ -5,17 +5,15 @@ import staffing1 from '../images/staffing1.jpeg'
 import consulting from '../images/consulting.jpeg'
 import training from '../images/training.jpeg'
 import appdevelopment from '../images/appdevelopment.jpeg'
-import staffing2 from '../images/staffing2.jpeg'
-import staffing3 from '../images/staffing3.jpeg'
 
 const Services = () => {
     return (
-        <div>
+        <div className='services-page'>
             <h1 className='page-header'> OUR SERVICES</h1>
             <Row xs={1} md={3} className="g-4">
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={staffing1} />
+                        <Card.Img className='service-image' variant="top" src={staffing1} />
                         <Card.Body>
                             <Card.Title>Recruitment Services</Card.Title>
                             <Card.Text className='page-content'>
@@ -28,7 +26,7 @@ const Services = () => {
                 </Col>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={consulting} />
+                        <Card.Img className='service-image' variant="top" src={consulting} />
                         <Card.Body>
                             <Card.Title>Consulting</Card.Title>
                             <Card.Text className='page-content'>
@@ -41,7 +39,7 @@ const Services = () => {
                 </Col>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={training} />
+                        <Card.Img className='service-image' variant="top" src={training} />
                         <Card.Body>
                             <Card.Title>Training</Card.Title>
                             <Card.Text className='page-content'>
@@ -54,7 +52,7 @@ const Services = () => {
                 </Col>
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={appdevelopment} />
+                        <Card.Img className='service-image' variant="top" src={appdevelopment} />
                         <Card.Body>
                             <Card.Title>Application Development</Card.Title>
                             <Card.Text className='page-content'>
