@@ -8,13 +8,28 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
 .footer-logo {
     height: 120px;
 }
+
 .page-content {
     font-family: mplus;
     font-weight: 400;
 }
+
 .container {
     font-family: mplus;
+}
+
+.page-container {
+    overflow: scroll;
+    margin-bottom: 100px;
+}
+
+.contact-content ul li {
+
+    display: grid;
+    grid-template-columns: 40px auto;
+    gap: 20px;
 }

@@ -17,7 +17,7 @@ const App = () => {
       <div className='container'>
         <LandingPage selectedTab={selectedTab} />
       </div>
-      <Footer />
+      <Footer onTabClick={onHeadertabsClick}/>
     </div>
   )
 }
